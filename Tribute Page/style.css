@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.hero {
+  text-align: center; /* Center align content within the section */
+  margin: 20px 0;
+}
+
+.hero-content {
+  display: inline-block; /* Allow text to wrap around image */
+  text-align: left; /* Align text to the left of the image */
+}
+
+.hero-image {
+  max-width: 100%; /* Ensure image does not exceed container width */
+  display: block; /* Remove default inline image behavior */
+  margin: 0 auto; /* Center image horizontally */
+}
+
+.hero-info {
+  margin-top: 10px; /* Space between image and text */
+}
+
+.hero-info h1 {
+  font-size: 2em; /* Example font size */
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.hero-info p {
+  font-size: 1.5em; /* Example font size */
+  color: #666; /* Example text color */
+}
+
+.content {
+  width: 80%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #e4e4e4;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.advocacy-image, .constitution-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
